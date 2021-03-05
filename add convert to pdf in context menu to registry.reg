@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Word.Document.8\shell\Save as PDF]
+@="&Convert to PDF"
+
+[HKEY_CLASSES_ROOT\Word.Document.8\shell\Save as PDF\command]
+@="cscript.exe C:\\\\Convert_doc&docx_To_PDF_From_Context_menu.vbs \"%1\""
+
+[HKEY_CLASSES_ROOT\Word.Document.12\shell\Save as PDF]
+@="&Convert to PDF"
+
+[HKEY_CLASSES_ROOT\Word.Document.12\shell\Save as PDF\command]
+@="cscript.exe C:\\\\Convert_doc&docx_To_PDF_From_Context_menu.vbs \"%1\""
